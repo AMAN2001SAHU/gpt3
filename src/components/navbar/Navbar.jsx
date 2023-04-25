@@ -25,6 +25,7 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
@@ -32,7 +33,22 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
         <div className="gpt3__navbar-links_container">
-          <Menu />
+          {/* <Menu /> */}
+          <p>
+            <a herf="#home">Home</a>
+          </p>
+          <p>
+            <a herf="#wgpt3">What is GPT?</a>
+          </p>
+          <p>
+            <a herf="#possibility">Open AI</a>
+          </p>
+          <p>
+            <a herf="#features">Case Studies</a>
+          </p>
+          <p>
+            <a herf="#blog">Library</a>
+          </p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
